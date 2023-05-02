@@ -1,0 +1,29 @@
+.bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+.start-button {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.start-button a input {
+    font-size: 35px;
+    padding: 10px 75px 10px 75px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+
+.start-button a input:hover {
+    background-color: gold;
+}
